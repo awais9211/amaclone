@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Clone</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#e3e6e6;
+        }
+
+        /* Top Navbar */
+        .navbar{
+            background:#131921;
+            color:white;
+            display:flex;
+            align-items:center;
+            padding:10px;
+        }
+
+        .logo{
+            font-size:24px;
+            font-weight:bold;
+            margin-right:20px;
+        }
+
+        .search{
+            flex:1;
+            display:flex;
+        }
+
+        .search input{
+            width:100%;
+            padding:8px;
+            border:none;
+        }
+
+        .search button{
+            padding:8px 15px;
+            border:none;
+            background:#febd69;
+        }
+
+        .nav-links{
+            margin-left:20px;
+        }
+
+        /* Menu Bar */
+        .menu{
+            background:#232f3e;
+            color:white;
+            padding:8px 15px;
+        }
+
+        .menu span{
+            margin-right:15px;
+        }
+
+        /* Hero Section */
+        .hero{
+            background:linear-gradient(to right, #c471f5, #fa71cd);
+            color:black;
+            padding:60px;
+            text-align:left;
+        }
+
+        .hero h1{
+            font-size:40px;
+        }
+
+        /* Cards Section */
+        .container{
+            display:flex;
+            justify-content:space-around;
+            margin:20px;
+        }
+
+        .card{
+            background:white;
+            width:22%;
+            padding:15px;
+        }
+
+        .card h2{
+            font-size:18px;
+        }
+
+        .card img{
+            width:100%;
+            height:150px;
+            object-fit:cover;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">amazon</div>
+
+        <div class="search">
+            <input type="text" placeholder="Search Amazon">
+            <button>Search</button>
+        </div>
+
+        <div class="nav-links">
+            Account & Lists
+        </div>
+        <div class="nav-links">
+            Orders
+        </div>
+        <div class="nav-links">
+            Cart
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <span>All</span>
+        <span>Today's Deals</span>
+        <span>Prime Video</span>
+        <span>Customer Service</span>
+        <span>Sell</span>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Fill your Easter basket with joy</h1>
+    </div>
+
+    <!-- Cards -->
+    <div class="container">
+
+        <div class="card">
+            <h2>Shop for your home essentials</h2>
+            <img src="amazon/images.jpg">
+        </div>
+
+        <div class="card">
+            <h2>Get your game on</h2>
+            <img src="amazon/ama.jpg">
+        </div>
+
+        <div class="card">
+            <h2>Shop Fashion for less</h2>
+            <img src="amazon/shop.jpg">
+        </div>
+
+        <div class="card">
+            <h2>New home arrivals under $50</h2>
+            <img src="amazon/home.jpg">
+        </div>
+
+    </div>
+
+</body>
+</html>
